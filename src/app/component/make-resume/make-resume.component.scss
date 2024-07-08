@@ -1,0 +1,58 @@
+/* עיצוב הטקסט */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* עיצוב התיבות והלייבלים */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #b58c70;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  button {
+    background-color: #f2d1bb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 2px;
+  }
+  
+  
+  button:hover {
+    background-color: #b58c70;
+  }
+  
+  /* עיצוב הכותרת */
+  h2 {
+    color: #b58c70;
+    border-bottom: 2px solid #281f1f;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* עיצוב העמוד */
+  body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  

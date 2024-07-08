@@ -1,0 +1,8 @@
+<form ngForm class="filter-row">
+    
+    <label>תחום</label>
+    <input name="region" type="text" [(ngModel)]="filterData.region">
+    <label>אזור</label>
+    <input name="area" type="text" [(ngModel)]="filterData.area">
+    <button type="submit" (click)="filter()" appButtonStyle>סנן</button>
+</form>

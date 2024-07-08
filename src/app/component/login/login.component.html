@@ -1,0 +1,14 @@
+<br>
+<br>
+<br>
+<form #f=ngForm  id="loginForm" class="login-form ">
+    <div> <label for="username" class=".login-label">שם משתמש</label>
+        <input #n type="text" name="username" [required]="true" maxlength="20" [(ngModel)]="User.username" class="login-input">
+    </div>
+    <div>
+        <label for="password" class=".login-label" >סיסמא</label>
+        <input #p type="password" name="password" [required]="true" minlength="8" [(ngModel)]="User.password" class="login-input">
+    </div>
+    <button (click)="signUp()" class="login-button" appButtonStyle>לכניסה </button>
+</form>
+

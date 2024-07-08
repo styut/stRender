@@ -1,0 +1,12 @@
+<br>
+<app-single-job 
+  *ngFor="let job of listJobs" 
+  [jobData]="job" 
+ >
+</app-single-job>
+<div>
+<div style="display: flex;">
+<app-filter (filterChanged)="changeFilter($event)"></app-filter>
+</div>
+<br><br><br><br><br><br><br>
+

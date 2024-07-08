@@ -1,0 +1,27 @@
+<div class="header">
+  <span>{{ username }}</span>
+  <br>
+  <br>
+  <span>כמות קו"ח שנשלחו:{{userResume}} </span>
+  <br>
+  <br>
+  <div class="user-info">
+    <a [routerLink]="'login'">login</a>
+    <a [routerLink]="'/jobs/'+ userReigon+'/allJobs'">משרות לתחום שלי</a>
+  </div>   
+<div class="job-search-logo">search<span>Job</span><em>Esti Chevy Sari</em></div>
+
+  <div class="footer">
+    <div class="contact-info">
+      <h2>פרטי יצירת קשר עם מנהל האתר</h2>
+      <p>טלפון: 123-456-7890</p>
+      <!-- <p>אימייל: admin@example.com</p> -->
+    </div>
+    
+    
+  </div>
+  
+</div>
+
+
+<router-outlet></router-outlet>

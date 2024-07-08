@@ -1,0 +1,28 @@
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.job-item {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.input-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px; /* רוחב ריבוע האייקון */
+  height: 10px; /* גובה ריבוע האייקון */
+  background-image: url('https://fonts.googleapis.com/icon?family=Material+Icons');
+  background-size: cover;
+}

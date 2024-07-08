@@ -1,0 +1,86 @@
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  text-align: center;
+
+
+  h2 {
+    margin-right: 10px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+    justify-content: center;
+    text-align: center;
+
+
+    
+  }
+
+  h3 {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #666;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+// margin-left: 2%;
+// margin-right: -20%;
+  }
+
+  input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #b58c70;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+}
+// .input-wrapper {
+//   position: relative;
+// }
+
+// .input-wrapper input {
+//   padding-left: 30px; /* כאן יש להכניס את רוחב האייקון כדי להבין מהי הערך המתאים */
+// }
+
+// .input-wrapper::before {
+//   content: ""; /* הוספת ריבוע ריק כדי להציג את האייקון */
+//   position: absolute;
+//   left: 10px; /* המרחק משמאל של האייקון */
+//   top: 50%; /* מיושר למרכז אנכי */
+//   transform: translateY(-50%); /* להזיז את האייקון למעלה בדיוק באמצע */
+//   width: 20px; /* רוחב האייקון */
+//   height: 20px; /* גובה האייקון */
+//   background-image: url('https://fonts.googleapis.com/icon?family=Material+Icons'); /* הוספת קישור לקובץ האייקון */
+//   background-size: cover; /* מתאים את גודל התמונה כדי למלא את רוחב וגובה האיקון */
+// }
+
+.filter-container {
+  display: flex;
+  justify-content: center; /* ממריץ את ה-elements באופן אופקי לאמצע */
+  align-items: center; /* ממריץ את ה-elements באופן אנכי לאמצע */
+  // height: 100vh; /* משנה את גובה ה-container לגובה של כל המסך */
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  text-align: center;
+}

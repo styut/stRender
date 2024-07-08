@@ -1,0 +1,34 @@
+<div>
+    <h2>צור קורות חיים</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div>
+        <label for="fullName">שם מלא:</label>
+        <input type="text" id="fullName" [(ngModel)]="fullName" name="fullName" required>
+      </div>
+      <div>
+        <label for="dateOfBirth">תאריך לידה:</label>
+        <input type="date" id="dateOfBirth" [(ngModel)]="dateOfBirth" name="dateOfBirth" required>
+      </div>
+      <div>
+        <label for="skills">כישורים:</label>
+        <textarea id="skills" [(ngModel)]="skills" name="skills" required></textarea>
+      </div>
+      <div>
+        <label for="educationLevel">השכלה:</label>
+        <select id="educationLevel" [(ngModel)]="educationLevel" name="educationLevel" required>
+          <option value="תיכונית">תיכונית</option>
+          <option value="תואר ראשון">תואר ראשון</option>
+          <option value="תואר שני">תואר שני</option>
+          <option value="דוקטורט">דוקטורט</option>
+        </select>
+      </div>
+      <button type="button" (click)="makeStyle()">צור בסגנון יוקרתי</button>
+      <button type="button" (click)="makeClasic()">צור בסגנון קלאסי</button>
+      <br>
+      <br>
+      <button type="submit" appButtonStyle>צור קורות חיים</button>
+      
+    </form>
+    <br>
+     </div>
+

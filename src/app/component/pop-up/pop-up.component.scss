@@ -1,0 +1,55 @@
+.modal {
+    display: none; /* להסתיר את ה-pop-up כברירת מחדל */
+    position: fixed; /* להקפיא את ה-pop-up במקום גבוה באמצעות position: fixed */
+    z-index: 1; /* כדי להבטיח שה-pop-up יעלה מעל כל תוכן אחר */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* הוספת גלילה כאשר יש המון תוכן ב-pop-up */
+    background-color: rgb(0,0,0); /* גוון רקע שחור חצי שקוף */
+    background-color: rgba(0,0,0,0.4); /* גוון רקע שחור חצי שקוף */
+  }
+  
+  .modal-content {
+    background-color: #fefefe; /* גוון רקע לגוף ה-pop-up */
+    margin: 15% auto; /* שליחה למרכז האמצע על ידי מרווחים לעבוד */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* רוחב ה-pop-up */
+  }
+  
+  .close {
+    color: #aaaaaa; /* צבע רקע לסמל סגירה */
+    float: right; /* הצבת הסמל בצד ימין */
+    font-size: 28px; /* גודל הגופן של הסמל */
+    font-weight: bold; /* משקל הגופן של הסמל */
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000; /* צבע רקע לסמל סגירה בעת מעבר העכבר */
+    text-decoration: none; /* אי הדגשת הקישור */
+    cursor: pointer; /* שינוי העכבר לסמל יד לרמז */
+  }
+  .popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 9999;
+  }
+  
+  .popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+  }
+  

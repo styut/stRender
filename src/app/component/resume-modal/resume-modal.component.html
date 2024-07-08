@@ -1,0 +1,15 @@
+<h1> my resume</h1>
+<div id="resume" [ngClass]="resumeData.resumeStyle">
+  <br>
+  <p><strong>שם מלא:</strong> {{ resumeData.fullName }}</p>
+  <br>
+  <p><strong>תאריך לידה:</strong> {{ resumeData.dateOfBirth }}</p>
+  <br>
+  <p><strong>כישורים:</strong> {{ resumeData.skills }}</p>
+  <br>
+  <p><strong>השכלה:</strong> {{ resumeData.educationLevel }}</p>
+  <br>
+</div>
+<button class="download-button" (click)="onCloseClick()">הורד</button>
+
+ 

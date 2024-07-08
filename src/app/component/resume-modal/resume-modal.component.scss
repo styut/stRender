@@ -1,0 +1,55 @@
+#resume {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1900px;
+  }
+  .classic {
+    background-color: #c4c4c4; /* אפור */
+    border: 2px solid #008000; /* ירוק */
+    color: #ffffff; /* לבן */
+  }
+  .luxury {
+    background-color: #000000; /* שחור */
+    border: 2px solid #ff8c00; /* כתום */
+    color:  #ff8c00; /* לבן */
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+  strong {
+    font-weight: bold;
+  }
+  .deafult {
+    background-color: grey; 
+    border: 2px solid rgb(195, 0, 255); 
+    color:  solid rgb(195, 0, 255);
+  }
+  h1{
+    padding-right: 5px;
+  }
+  p {
+    font-size: 18px;
+  }
+  
+  #resume {
+    padding: 20px;
+  }
+  
+  .download-button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #333;
+  }
+  

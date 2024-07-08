@@ -1,0 +1,28 @@
+.job-list {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .job-list h2 {
+    font-size: 24px;
+    color:#b58c70;
+    text-align: center;
+  }
+  
+  .job-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .job-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  
+  .job-list li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
